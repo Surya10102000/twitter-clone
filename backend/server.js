@@ -1,5 +1,6 @@
 import express from "express"
 import dotenv from "dotenv"
+import cookieParser from "cookie-parser"
 
 import authRoutes from "./routes/auth.routes.js"
 import connectDB from "./db/connectMongoDB.js"
@@ -11,6 +12,8 @@ const PORT = process.env.PORT
 //middlewares
 app.use(express.json())
 app.use(express.urlencoded({ extended : true}))
+
+app.use(cookieParser())
 
 app.use("/api/auth",authRoutes);
 
