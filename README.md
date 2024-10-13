@@ -1,6 +1,8 @@
 # Twitter Clone
 
 A full-stack Twitter clone built using the MERN stack. This application features user sign-up and login, post creation with pictures, liking, commenting, following/unfollowing, profile editing, and notifications. The app is fully responsive and uses various modern libraries for state management, data fetching, and styling.
+![image](https://github.com/user-attachments/assets/89a37d39-cad4-4719-8903-3c11592fa744)
+
 
 ## Features
 
